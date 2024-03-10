@@ -183,8 +183,6 @@ nnoremap("<F12>", ":lua require'dap'.step_out()<CR>")
 --------------------------------------------------------------------------------
 -- Leader Mappings -------------------------------------------------------------
 --------------------------------------------------------------------------------
-g.mapleader = " "
-g.maplocalleader = " "
 
 nnoremap("<leader>v", ":vsplit<CR>") -- Vertical split
 nnoremap("<leader>h", ":split<CR>") -- Horizontal split
