@@ -40,6 +40,9 @@ imap("<c-b>", "<Left>", opt)
 imap("<c-a>", "<Home>", opt)
 imap("<c-e>", "<End>", opt)
 
+nmap("<c-;>", "<cmd>silent !open 'obsidian://open?vault=markdown&file=%:r'<CR>", opt)
+nmap("<Leader>ob", "<cmd>silent !open 'obsidian://open?vault=markdown&file=%:r'<CR>", opt)
+
 nnoremap("<TAB>", "<cmd>bnext<cr>")
 nnoremap("<S-TAB>", "<cmd>bNext<cr>")
 
