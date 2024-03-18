@@ -39,6 +39,8 @@ imap("<c-f>", "<Right>", opt)
 imap("<c-b>", "<Left>", opt)
 imap("<c-a>", "<Home>", opt)
 imap("<c-e>", "<End>", opt)
+vmap("H", "^", opt)
+vmap("L", "$", opt)
 
 nmap("<c-;>", "<cmd>silent !open 'obsidian://open?vault=markdown&file=%:r'<CR>", opt)
 nmap("<Leader>ob", "<cmd>silent !open 'obsidian://open?vault=markdown&file=%:r'<CR>", opt)

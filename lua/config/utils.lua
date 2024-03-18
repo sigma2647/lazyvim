@@ -184,19 +184,19 @@ nnoremap("<F12>", ":lua require'dap'.step_out()<CR>")
 -- Leader Mappings -------------------------------------------------------------
 --------------------------------------------------------------------------------
 
-nnoremap("<leader>v", ":vsplit<CR>") -- Vertical split
-nnoremap("<leader>h", ":split<CR>") -- Horizontal split
+-- nnoremap("<leader>v", ":vsplit<CR>") -- Vertical split
+-- nnoremap("<leader>h", ":split<CR>") -- Horizontal split
 
-nnoremap("<leader>w", ":w<CR>") -- Save
-nnoremap("<leader>q", ":q<CR>") -- Quit buffer
-nnoremap("<leader>Q", ":wqall<CR>") -- Write all buffers and quit
+-- nnoremap("<leader>w", ":w<CR>") -- Save
+-- nnoremap("<leader>q", ":q<CR>") -- Quit buffer
+-- nnoremap("<leader>Q", ":wqall<CR>") -- Write all buffers and quit
 
-nmap("<leader>t", ":tab sb<CR>") -- Open current buffer in a new tab
+-- nmap("<leader>t", ":tab sb<CR>") -- Open current buffer in a new tab
 
 nnoremap("<leader>n", "o<esc>I- [ ] <esc>") -- Create task
 nnoremap("<leader>x", "^elrx<ESC>") -- Cross off a task
 
-nnoremap("<leader>a", ":nohl<CR>") -- Clear search highlight
+nnoremap("<leader>h", ":nohl<CR>") -- Clear search highlight
 
 nmap("<leader>p", ":Telescope find_files<CR>") -- Search files
 nmap("<leader>f", ":Telescope live_grep<CR>") -- Grep files
@@ -211,5 +211,5 @@ nnoremap("<leader>B", ":lua require'dap'.set_breakpoint(vim.fn.input('Breakpoint
 nnoremap("<leader>r", vim.lsp.buf.rename) -- Rename current token
 
 nnoremap("<leader>s", ":so %<CR>") -- Source the current file
-nnoremap("<leader>o", ":ToggleColumnColor<CR>") -- Toggle highlighting columns 80 and 120
+-- nnoremap("<leader>o", ":ToggleColumnColor<CR>") -- Toggle highlighting columns 80 and 120
 return utils
