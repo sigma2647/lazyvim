@@ -1,5 +1,5 @@
 if vim.g.vscode then
-  require("vscode.key")
+  require("vscode.vs-option")
 else
   require("config.lazy")
 end
