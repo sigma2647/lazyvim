@@ -1,6 +1,6 @@
 if vim.g.vscode then
-  require("vscode.vs-option")
+    require("vscode.vs-option")
 else
-  require("config.lazy")
-  require("config.setting")
+    require("config.lazy")
+    require("config.setting")
 end
