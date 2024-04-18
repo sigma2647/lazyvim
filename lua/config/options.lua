@@ -13,12 +13,17 @@ opt.wildmenu = true
 g.tmux_navigator_no_mappings = 1
 opt.wildignorecase = true -- wildignorecase
 
+-- 高亮行号
+vim.api.nvim_set_hl(0, "CursorLineNr", { fg = "#ff39ff", bg = "none", bold = true })
+
 local settings = {
   whichwrap = "b,s,<,>,[,],h,l", -- 允许使用上下左右箭头移动光标
   mouse = "a",
   cmdheight = 1, -- Number of screen line
   termguicolors = true, -- Terminal color
+  -- 启用行号高亮
   number = true, -- Number
+  relativenumber = true, -- 相对行号
   showtabline = 0,
   hidden = true,
   fileencoding = "utf-8",
@@ -34,7 +39,6 @@ local settings = {
   updatetime = 100, -- 更新时间
   wildmenu = true, -- wildmenu
   wildignorecase = true, -- wildignorecase
-  relativenumber = true, -- relative number
   incsearch = true, -- incsearch
   ignorecase = true, -- ignorecase also in cmd mode auto complete
   autoindent = true, -- autoindent
