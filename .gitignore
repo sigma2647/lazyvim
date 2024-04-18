@@ -1,3 +1,11 @@
 .DS_Store
 lazy-lock.json
 lazyvim.json
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data

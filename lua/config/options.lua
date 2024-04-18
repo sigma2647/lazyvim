@@ -14,7 +14,7 @@ g.tmux_navigator_no_mappings = 1
 opt.wildignorecase = true -- wildignorecase
 
 -- 高亮行号
-vim.api.nvim_set_hl(0, "CursorLineNr", { fg = "#ff39ff", bg = "none", bold = true })
+-- vim.api.nvim_set_hl(0, "CursorLineNr", { fg = "#ffffff", bg = "none", bold = true })
 
 local settings = {
   whichwrap = "b,s,<,>,[,],h,l", -- 允许使用上下左右箭头移动光标

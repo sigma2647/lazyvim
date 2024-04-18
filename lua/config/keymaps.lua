@@ -72,6 +72,3 @@ nmap("<C-h>", "<cmd>TmuxNavigateLeft<cr>", opt)
 nmap("<C-l>", "<cmd>TmuxNavigateRight<cr>", opt)
 nmap("<C-k>", "<cmd>TmuxNavigateUp<cr>", opt)
 nmap("<C-j>", "<cmd>TmuxNavigateDown<cr>", opt)
-
--- 高亮行号
-vim.api.nvim_set_hl(0, "CursorLineNr", { fg = "#ff39ff", bg = "none", bold = true })
