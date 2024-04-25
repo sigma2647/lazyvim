@@ -1,0 +1,19 @@
+# ┌─────┐
+# │ box │
+# └─────┘
+
+snippet box "Box"
+`!p snip.rv = '// ┌' + '─' * (len(t[1]) + 2) + '┐'`
+// │ $1 │
+`!p snip.rv = '// └' + '─' * (len(t[1]) + 2) + '┘'`
+$0
+endsnippet
+
+
+# ┌─────┐
+# │ now │
+# └─────┘
+
+snippet now "YYYY-MM-DD hh:mm" wA
+`!v strftime("%Y-%m-%d %H:%M")`
+endsnippet
